@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('construction.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f40000; /* Цвет текста на изображении */
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон над изображением */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.centered {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+
+
+
